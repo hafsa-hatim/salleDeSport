@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="528.0" prefWidth="784.0" style="-fx-background-color: #ebf0f7;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="27.0" layoutY="83.0" prefHeight="27.0" prefWidth="158.0" text="Rechercher :">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <TextField layoutX="185.0" layoutY="83.0" prefHeight="31.0" prefWidth="194.0" promptText="nom complet du coach" style="-fx-background-color: #bbd1ed;" />
+      <TextField layoutX="26.0" layoutY="130.0" prefHeight="31.0" prefWidth="194.0" promptText="Nom Complet " style="-fx-background-color: #bbd1ed;" />
+      <TextField layoutX="239.0" layoutY="130.0" prefHeight="31.0" prefWidth="194.0" promptText="Adresse" style="-fx-background-color: #bbd1ed;" />
+      <TextField layoutX="239.0" layoutY="177.0" prefHeight="31.0" prefWidth="194.0" promptText="email@.com" style="-fx-background-color: #bbd1ed;" />
+      <TextField layoutX="26.0" layoutY="177.0" prefHeight="31.0" prefWidth="194.0" promptText="Num Tél" style="-fx-background-color: #bbd1ed;" />
+      <ComboBox layoutX="239.0" layoutY="234.0" prefHeight="26.0" prefWidth="194.0" style="-fx-background-color: #bbd1ed;" />
+      <TableView layoutX="27.0" layoutY="287.0" prefHeight="224.0" prefWidth="574.0">
+        <columns>
+          <TableColumn prefWidth="113.60000610351562" style="-fx-background-color: #bbd1ed;" text="Nom Complet" />
+            <TableColumn prefWidth="93.60003662109375" style="-fx-background-color: #bbd1ed;" text="Adresse" />
+            <TableColumn prefWidth="123.20001220703125" style="-fx-background-color: #bbd1ed;" text="email" />
+            <TableColumn prefWidth="80.79998779296875" style="-fx-background-color: #bbd1ed;" text="Téléphone" />
+            <TableColumn prefWidth="68.79998779296875" style="-fx-background-color: #bbd1ed;" text="Cour" />
+            <TableColumn prefWidth="91.199951171875" style="-fx-background-color: #bbd1ed;" text="Salaire" />
+        </columns>
+      </TableView>
+      <Button layoutX="646.0" layoutY="282.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="102.0" style="-fx-background-color: #bbd1ed;" text="Modifier" />
+      <Button layoutX="648.0" layoutY="381.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="102.0" style="-fx-background-color: #bbd1ed;" text="Ajouter" />
+      <Button layoutX="648.0" layoutY="329.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="102.0" style="-fx-background-color: #bbd1ed;" text="Supprimer" />
+      <AnchorPane layoutY="-2.0" prefHeight="70.0" prefWidth="784.0" style="-fx-background-color: #5b8db7;">
+         <children>
+            <TextField layoutX="14.0" layoutY="13.0" prefHeight="50.0" prefWidth="194.0" style="-fx-background-color: #5b8db7;" text="Coach ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Button layoutX="646.0" layoutY="22.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="96.0" style="-fx-background-color: #bbd1ed;" text="Home" />
+         </children>
+      </AnchorPane>
+      <TextField layoutX="26.0" layoutY="231.0" prefHeight="31.0" prefWidth="194.0" promptText="Cour animé" style="-fx-background-color: #bbd1ed;" />
+   </children>
+</AnchorPane>

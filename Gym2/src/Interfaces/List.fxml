@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="528.0" prefWidth="784.0" style="-fx-background-image: #696c6e;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="27.0" layoutY="83.0" prefHeight="27.0" prefWidth="158.0" text="Rechercher :">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <TextField layoutX="185.0" layoutY="83.0" prefHeight="31.0" prefWidth="194.0" promptText="nom Cour" style="-fx-background-color: #ebf0f7;" />
+      <TableView layoutX="69.0" layoutY="140.0" prefHeight="364.0" prefWidth="450.0">
+        <columns>
+          <TableColumn prefWidth="100.00003051757812" style="-fx-background-color: #bbd1ed;" text="num Adhésion" />
+          <TableColumn prefWidth="105.60000610351562" style="-fx-background-color: #bbd1ed;" text="Nom Complet" />
+            <TableColumn prefWidth="112.0" style="-fx-background-color: #bbd1ed;" text="Cour" />
+            <TableColumn prefWidth="130.4000244140625" style="-fx-background-color: #bbd1ed;" text="Date de réséervation" />
+        </columns>
+      </TableView>
+      <Button layoutX="660.0" layoutY="85.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="102.0" style="-fx-background-color: #bbd1ed;" text="Refraichir" />
+      <DatePicker layoutX="433.0" layoutY="83.0" prefHeight="31.0" prefWidth="194.0" promptText="Date de résérvation" style="-fx-background-color: #bbd1ed;" />
+      <AnchorPane layoutY="-2.0" prefHeight="70.0" prefWidth="784.0" style="-fx-background-color: #5b8db7;">
+         <children>
+            <TextField layoutX="14.0" layoutY="13.0" prefHeight="50.0" prefWidth="194.0" style="-fx-background-color: #5b8db7;" text="Résérvations">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Button layoutX="646.0" layoutY="22.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="96.0" style="-fx-background-color: #bbd1ed;" text="Home" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="543.0" layoutY="178.0" text="nombre de places restantes est:" />
+   </children>
+</AnchorPane>

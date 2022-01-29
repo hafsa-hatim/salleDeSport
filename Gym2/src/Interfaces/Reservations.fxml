@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="528.0" prefWidth="784.0" style="-fx-background-image: #696c6e;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="27.0" layoutY="83.0" prefHeight="27.0" prefWidth="158.0" text="Rechercher :">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <TextField layoutX="185.0" layoutY="83.0" prefHeight="31.0" prefWidth="194.0" promptText="numéro d'adhésion" style="-fx-background-color: #ebf0f7;" />
+      <TextField layoutX="26.0" layoutY="130.0" prefHeight="31.0" prefWidth="194.0" promptText="Nom Complet " style="-fx-background-color: #bbd1ed;" />
+      <TextField layoutX="239.0" layoutY="177.0" prefHeight="31.0" prefWidth="194.0" promptText="Nom du cour" style="-fx-background-color: #bbd1ed;" />
+      <TextField layoutX="239.0" layoutY="130.0" prefHeight="31.0" prefWidth="194.0" promptText="numéro d'ahdésion" style="-fx-background-color: #bbd1ed;" />
+      <ComboBox layoutX="239.0" layoutY="234.0" prefHeight="26.0" prefWidth="194.0" style="-fx-background-color: #bbd1ed;" />
+      <TableView layoutX="27.0" layoutY="287.0" prefHeight="224.0" prefWidth="423.0">
+        <columns>
+          <TableColumn prefWidth="100.00003051757812" style="-fx-background-color: #bbd1ed;" text="num Adhésion" />
+          <TableColumn prefWidth="105.60000610351562" style="-fx-background-color: #bbd1ed;" text="Nom Complet" />
+            <TableColumn prefWidth="117.5999755859375" style="-fx-background-color: #bbd1ed;" text="Date de réséervation" />
+            <TableColumn prefWidth="97.60002441406249" style="-fx-background-color: #bbd1ed;" text="Cour" />
+        </columns>
+      </TableView>
+      <Button layoutX="554.0" layoutY="344.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="102.0" style="-fx-background-color: #bbd1ed;" text="Modifier" />
+      <Button layoutX="554.0" layoutY="456.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="102.0" style="-fx-background-color: #bbd1ed;" text="Ajouter" />
+      <Button layoutX="554.0" layoutY="399.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="102.0" style="-fx-background-color: #bbd1ed;" text="Supprimer" />
+      <DatePicker layoutX="26.0" layoutY="177.0" prefHeight="31.0" prefWidth="194.0" promptText="Date de résérvation" style="-fx-background-color: #bbd1ed;" />
+      <AnchorPane layoutY="-2.0" prefHeight="70.0" prefWidth="784.0" style="-fx-background-color: #5b8db7;">
+         <children>
+            <TextField layoutX="14.0" layoutY="13.0" prefHeight="50.0" prefWidth="194.0" style="-fx-background-color: #5b8db7;" text="Résérvations">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Button layoutX="646.0" layoutY="22.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="96.0" style="-fx-background-color: #bbd1ed;" text="Home" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="477.0" layoutY="184.0" text="vous avez déjà 2 résérvations dans la meme date !!!!!" textFill="#e43a23" />
+      <Button layoutX="554.0" layoutY="287.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="102.0" style="-fx-background-color: #bbd1ed;" text="Liste" />
+   </children>
+</AnchorPane>
